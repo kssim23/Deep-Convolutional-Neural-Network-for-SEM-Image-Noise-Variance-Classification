@@ -1,1 +1,10 @@
-# Deep-Convolutional-Neural-Network-for-SEM-Image-Noise-Variance-Classification
+# Deep Convolutional Neural Network for SEM Image Noise Variance Classification
+
+Deep Convolutional Neural Network for SEM Image Noise Variance Classification
+
+Scanning Electron Microscopy (SEM) image plays a significant role in industrial, medical, and research fields. However, image defects, including existing noise will degrade the quality of the original image. In order to denoise the image, noise estimation is crucial. In the past, several noise estimation methods are designed, but they are not effective in estimating the noise level of the SEM images. Therefore, this paper presents a novel method to effectively classify noise variance of SEM images through a deep learning algorithm. The images are classified based on their respective noise variances. Before the classification process begins, the original SEM images are added with 4 categories of White Gaussian noises. To categorize the noise level of the image, a complex Gaussian-Noise Convolutional Neural Network (GN-CNN) method with encoder
+layer, convolutional layer, attention layer, decoder layer, and decision layer are adopted. In this study, a total of 1200 image data from different variety and complexity (720 images for training, 240 images for validation and testing respectively) are used. The experimental study shows the capability and reliability of the developed system in classifying noise variances of SEM images with the F1 score of 93.97% and testing accuracy of 93.8%. It has outperformed other baseline deep-learning models, including Long Short-Term Memory (LSTM), Residual Network 18 (ResNet18), and Residual Network 34 (ResNet34), and pure Convolutional Neural Network (CNN). Thus, the designed network can impressively surpass human-eye performance in noise variance categorization. 
+
+K. S. Sim, L. C. Chen, T. S. Chiang, and T. C. Khim, “Deep Convolutional Neural Network for SEM Image Noise Variance Classification,” Engineering Letters, vol. 31, no. 1, pp328-337, 2023.
+
+https://www.engineeringletters.com/issues_v31/issue_1/EL_31_1_35.pdf
